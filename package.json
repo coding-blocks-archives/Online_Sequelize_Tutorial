@@ -1,0 +1,23 @@
+{
+  "name": "sequelize_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-blocks-archives/Online_Sequelize_Tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-blocks-archives/Online_Sequelize_Tutorial/issues"
+  },
+  "homepage": "https://github.com/coding-blocks-archives/Online_Sequelize_Tutorial#readme",
+  "dependencies": {
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2"
+  }
+}
