@@ -8,9 +8,17 @@ const db = new Sequelize({
   password: 'awesomepass'
 })
 
-async function connect() {
-  await db.authenticate()
-  await db.close()
-}
+const AwesomePlaces = db.define('awesome_place', {
+  name: {
+    type: Sequelize.STRING(30),
+    allowNull: false
+  },
+  score: {
+    type: Sequelize.INTEGER,
+    defaultValue: 5
+  }
+})
 
-connect()
+module.exports = {
+  db, AwesomePlaces
+}
